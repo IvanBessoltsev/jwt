@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    password: bestuser
+    url: jdbc:mysql://localhost:3306/my_db?useSSL=false
+    username: bestuser
+
+
+auth:
+  jwt:
+    secret: "bGVhcm51cGxlYXJudXBsZWFybnVw"
+server:
+  port: 8189
+
